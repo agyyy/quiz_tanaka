@@ -35,6 +35,11 @@ const quiz = [
         answers: ['ジントニック','ハンター','ヘア・オブ・ザ・ドッグ','ピュア・ラブ','ハイ・ライフ'],
         correct: 'ピュア・ラブ',
     },
+    {
+        question: '高校を中退した田中が購入したコンテナの価格は？',
+        answers: ['5千円','1万円','15万円','50万円','500万円'],
+        correct: '15万円',
+    },
 ]
 
 
@@ -70,7 +75,7 @@ const quizFunction = function(){
             if(quizIndex < quiz.length){
                 quizContent();
             }else{
-                alert('あなたの正解数は'+ score +'/7です！！');
+                alert('あなたの正解数は'+ score +'/8です！！');
             }
 
         })
